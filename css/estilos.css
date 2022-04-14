@@ -1,0 +1,54 @@
+body {
+     font-family: 'Roboto', sans-serif;
+ }
+
+
+.colornav {
+     background-color: rgb(226, 79, 0);
+
+}
+
+.imagenfondo {
+     background-image: url();
+}
+
+
+.letragrande {
+     font-size: 120px
+}
+
+.letranaranja {
+     color: rgb(226, 79, 0);
+}
+
+.fondonegro {
+     background-color: black;
+}
+
+.galeria {
+     width: 100%;
+     height: 250px;
+
+}
+
+.marginbot100 {
+
+     margin-bottom: 100px;
+
+}
+
+.marginbot300 {
+
+     margin-bottom: 300px;
+
+}
+
+.animacion {
+     transition: 300ms;
+ 
+ }
+ 
+ .animacion:hover {
+     transform: scale(1.10);
+
+}
