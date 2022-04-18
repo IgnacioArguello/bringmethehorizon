@@ -52,3 +52,28 @@ body {
      transform: scale(1.10);
 
 }
+.animacion2 {
+     transition: 50ms;
+ 
+ }
+ 
+ .animacion2:hover {
+     transform: scale(1.10);
+
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+     background-color: rgb(226, 79, 0);
+     border-color: rgb(226, 79, 0)
+ }
+
+ .btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem rgb(255, 119, 0)
+}
+
+ .btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgb(255, 119, 0)
+}
