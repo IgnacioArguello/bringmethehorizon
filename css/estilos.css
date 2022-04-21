@@ -1,79 +1,45 @@
-body {
-     font-family: 'Roboto', sans-serif;
- }
+* {
+  font-family: 'Roboto', sans-serif; }
 
+body header {
+  background-color: #e24f00; }
+  body header div div nav div a {
+    transition: 50ms; }
+    body header div div nav div a:hover {
+      transform: scale(1.1); }
 
-.colornav {
-     background-color: rgb(226, 79, 0);
+body footer div div {
+  background-color: #e24f00; }
+  body footer div div div a img {
+    transition: 300ms; }
+    body footer div div div a img:hover {
+      transform: scale(1.1); }
 
-}
+#indexmain {
+  background-image: url(../images/fotobanda.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  #indexmain section div h1 {
+    margin-bottom: 100px;
+    font-size: 120px; }
 
-.imagenfondo {
-     background-image: url();
-}
+#maingaleria {
+  background-color: black; }
+  #maingaleria section div img {
+    transition: 300ms; }
+    #maingaleria section div img:hover {
+      transform: scale(1.1); }
 
+#maindiscografia {
+  background-color: black; }
 
-.letragrande {
-     font-size: 120px
-}
+#mainhistoria {
+  background-color: black; }
 
-.letranaranja {
-     color: rgb(226, 79, 0);
-}
-
-.fondonegro {
-     background-color: black;
-}
-
-.galeria {
-     width: 100%;
-     height: 250px;
-
-}
-
-.marginbot100 {
-
-     margin-bottom: 100px;
-
-}
-
-.marginbot300 {
-
-     margin-bottom: 300px;
-
-}
-
-.animacion {
-     transition: 300ms;
- 
- }
- 
- .animacion:hover {
-     transform: scale(1.10);
-
-}
-.animacion2 {
-     transition: 50ms;
- 
- }
- 
- .animacion2:hover {
-     transform: scale(1.10);
-
-}
-
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-     background-color: rgb(226, 79, 0);
-     border-color: rgb(226, 79, 0)
- }
-
- .btn-primary:focus,
-.btn-primary.focus {
-    box-shadow: 0 0 0 .2rem rgb(255, 119, 0)
-}
-
- .btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-primary:not(:disabled):not(.disabled).active:focus,
-.show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem rgb(255, 119, 0)
-}
+#maincontacto {
+  background-color: black; }
+  #maincontacto section div button {
+    background-color: #e24f00;
+    border-color: #e24f00; }

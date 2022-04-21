@@ -1,0 +1,19 @@
+body {
+    footer {
+        div {
+            div {
+                background-color: $colorPrimario;
+                div {
+                    a {
+                       img {
+                            transition: 300ms;
+                            &:hover{
+                                transform: scale(1.10);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
